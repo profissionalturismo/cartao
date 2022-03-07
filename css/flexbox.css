@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+* {
+    font-family: 'Ropa Sans', sans-serif;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+} 
+.titulo {
+    width:100%;
+    color:white;
+    background: #333;
+    border-bottom: 2rem solid white;
+    border-left:  2rem solid white;
+    border-right: 2rem solid white;
+    text-align: center;
+    text-shadow: 5px 5px 9px #333;
+}
+.contentor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cartao {
+    margin-top: 100px;
+    background: orange;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px slid #333;
+    box-shadow: 5px 6px 9px #333;
+}
+.destaque{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 5px 5px 9px #333;
+}
+.multimedia{
+    max-width: 100%;
+    border: 2rem solid white;
+    object-fit: cover;
+    
+}
+.texto{
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    flex: 1 1 200px;
+
+}
+.botao{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    background: black;
+    transition: opacity 0.5s ease-in-out;
+}
+.botao:hover{
+    opacity: 0.4;
+}
